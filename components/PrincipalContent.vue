@@ -1,11 +1,14 @@
 <template>
+  <!-- <img class="absolute w-full object-cover opacity-40 z-10" src="~/assets/img/construction-workers-sunset.png" /> -->
   <div class="pt-24">
-    <div
+    <!-- <div class="absolute top-20 w-full z-20  border-cyan-600"> -->
+      <div
       class="container px-3 mx-auto flex flex-wrap flex-col md:flex-row items-center"
-    >
+      >
+      
       <!--Left Col-->
       <div
-        class="flex flex-col w-full md:w-2/5 justify-center items-start text-center md:text-left"
+      class="flex flex-col w-full md:w-2/5 justify-center items-start text-center md:text-left"
       >
         <p class="uppercase tracking-loose w-full">Pronto para ver seus projetos ganharem vida ?</p>
         <h1 class="my-4 text-5xl font-bold leading-tight">

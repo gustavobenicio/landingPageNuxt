@@ -1,6 +1,6 @@
 <template>
 
-  <div class="leading-normal tracking-normal text-white gradient">
+  <div class="leading-normal tracking-normal text-white gradient landing-4">
 
     <!-- <div class="leading-normal tracking-normal text-white bg-gradient-to-br from-gray-800 via-gray-500 to-orange-400 bg-opacity-50 "> -->
 
@@ -17,9 +17,22 @@
 </script>
 
 <style>
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i,900&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap');
+
+.landing-4 .font-secondary {
+    font-family: "Raleway", -apple-system, BlinkMacSystemFont, "Segoe UI", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  }
+.landing-4 .landing-btn {
+  text-transform: uppercase;
+  letter-spacing: .06991em;
+  font-weight: 600;
+  font-size: 85%;
+  font-family: "Raleway", -apple-system, BlinkMacSystemFont, "Segoe UI", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+}
+
 html {
-  font-family: 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI',
-    Roboto, 'Helvetica Neue', Arial, sans-serif;
+  font-family: "Roboto",-apple-system,BlinkMacSystemFont,"Segoe UI","Oxygen","Ubuntu","Cantarell","Fira Sans","Droid Sans","Helvetica Neue",sans-serif;
   font-size: 16px;
   word-spacing: 1px;
   -ms-text-size-adjust: 100%;
@@ -32,20 +45,8 @@ html {
 .gradient {
   /* background: linear-gradient(90deg, #6200ee 0%, #03dac5 100%);  */
   /* background: linear-gradient(90deg, #d53369 0%, #daae51 100%); */
-  background: linear-gradient(90deg, #393536 0%, #F68712 100%);   
+  background: linear-gradient(90deg, #393536 0%, #393536 100%);   
   /*/#F68712 //#393536*/
 }
-/* 
-.bg-dark { background-color: rgba(0, 0, 0, .9) !important; }
-.opacity-50            { opacity: .5 !important; }
-.opacity-100            { opacity: .9 !important; }
-.ui-bg-overlay-container .ui-bg-overlay {
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  display: block;
-} */
 
 </style>

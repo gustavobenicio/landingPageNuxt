@@ -1,9 +1,9 @@
 <template>
     <div>
-        <Hero />
+        <Principal />
         <AboutUs />
-        <features />
+        <advantages />
         <OurProjects />
-        <call-to-action />
+        <contact-us />
     </div>
 </template>

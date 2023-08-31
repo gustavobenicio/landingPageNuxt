@@ -12,7 +12,7 @@
         ></div>
       </div>
 
-      <div data-aos="zoom-out-down" class="mx-auto grid grid-cols-1 gap-4 sm:grid-cols-4 lg:grid-cols-6 text-gray-800">
+      <div data-aos="fade-up" class="mx-auto grid grid-cols-1 gap-4 sm:grid-cols-4 lg:grid-cols-6 text-gray-800">
         <div class="p-1 bg-slate-50 border border-slate-100" v-for="product in products">
           <img :src=" product.image " alt="image" width="250" height="100" >
         </div>

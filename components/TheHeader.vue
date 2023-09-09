@@ -29,42 +29,46 @@
         <ul class="list-reset lg:flex justify-end flex-1 items-center">
           <li class="mr-3">
             <a
-              class="inline-block py-2 px-4 text-black font-bold no-underline"
-              href="#"
-              >Principal</a
-            >
-          </li>
-          <li class="mr-3">
-            <a
-              class="inline-block text-black no-underline hover:text-gray-800 hover:text-underline py-2 px-4"
+              :class="classList"
+              class="inline-block py-2 px-4 text-black hover:text-orange-200  font-bold no-underline"
               href="#"
               >Quem Somos</a
             >
           </li>
+          <li class="mr-3 ">
+            <a 
+              :class="classList"
+              class="inline-block text-black no-underline hover:text-orange-200 hover:text-underline py-2 px-4"
+              href="#"
+              >Projectos</a
+            >
+          </li>
           <li class="mr-3">
-            <a
-              class="inline-block text-black no-underline hover:text-gray-800 hover:text-underline py-2 px-4"
+            <a 
+              :class="classList"
+              class="inline-block text-black no-underline hover:text-orange-200 hover:text-underline py-2 px-4"
               href="#"
               >Serviços</a
             >
           </li>
           <li class="mr-3">
             <a
-              class="inline-block text-black no-underline hover:text-gray-800 hover:text-underline py-2 px-4"
+              :class="classList"
+              class="inline-block text-black no-underline hover:text-orange-200 hover:text-underline py-2 px-4"
               href="#"
-              >Projectos</a
+              >Orçamento/Contacto</a
             >
           </li>
         </ul>
-        <button
+        <!-- <button
           :class="navActionClassList"
-          class="mx-auto lg:mx-0 hover:underline font-bold rounded-full mt-4 lg:mt-0 py-4 px-8 shadow opacity-75"
+          class="mx-auto lg:mx-0 hover:underline font-bold rounded-full mt-4 lg:mt-0 py-2 px-6 shadow opacity-75"
         >
-          Contactos
-        </button>
+          Contacte-nos
+        </button> -->
       </div>
     </div>
-    <hr class="border-b border-gray-100 opacity-25 my-0 py-0" />
+    <!-- <hr class="border-b border-gray-100 opacity-25 my-0 py-0" /> -->
   </nav>
 </template>
 
@@ -87,6 +91,12 @@
       }
       return classList
     });
+
+  const classList = computed(() => {
+    let classList = ''
+      classList = (isSticky.value || isOpen.value) ? 'text-gray-800' : 'text-white'
+    return classList
+  } );
   
   const onClick = () => { isOpen.value = false  }
   

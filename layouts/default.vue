@@ -1,16 +1,31 @@
 <template>
 
-  <div class="leading-normal tracking-normal text-white gradient landing-4">
+<!-- <div class="leading-normal tracking-normal text-white gradient landing-4"> -->
+  <!-- <div class="leading-normal tracking-normal text-white bg-[url('~/assets/img/construction-workers-sunset.png')] bg-opacity-50 landing-4"> -->
 
     <!-- <div class="leading-normal tracking-normal text-white bg-gradient-to-br from-gray-800 via-gray-500 to-orange-400 bg-opacity-50 "> -->
 
   <!-- <div class="leading-normal tracking-normal text-white bg-[url('~/assets/img/construction-workers-sunset.png')] bg-opacity-25"> -->
     <!-- <div class="absolute ui-bg-overlay bg-dark opacity-50"> </div>
     <img  src="~/assets/img/construction-workers-sunset.png" /> -->
-      <TheHeader />
-      <slot />
-      <TheFooter/>
+     <!-- <div class="relative inline-block  h-11 bg-indigo-300 ">
+        <img class="absolute object-fill h-max opacity-40 z-10" src="~/assets/img/construction-workers-sunset.png" /> -->
+        <!-- <TheHeader/>
+        <slot/>
+        <TheFooter/> -->
+    <!-- </div> -->
+  <!-- </div> -->
+  <div class="relative leading-normal tracking-normal text-white  landing-4">
+    <div class="absolute inset-0  h-max bg-black bg-opacity-50 ">
+      <TheHeader/>
+        <slot/>
+        <TheFooter/>
+    </div>
+    <img class=" min-h-screen w-screen object-cover object-left" src="~/assets/img/construction-workers-sunset.png" alt="kitty" />
+    
   </div>
+
+
 </template>
 
 <script>
@@ -46,7 +61,7 @@ html {
   /* background: linear-gradient(90deg, #6200ee 0%, #03dac5 100%);  */
   /* background: linear-gradient(90deg, #d53369 0%, #daae51 100%); */
   background: linear-gradient(90deg, #393536 0%, #393536 100%);   
-  /*/#F68712 //#393536*/
+  /*/# //#393536*/
 }
 
 </style>

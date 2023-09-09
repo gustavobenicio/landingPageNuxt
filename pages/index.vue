@@ -5,5 +5,6 @@
         <advantages />
         <OurProjects />
         <contact-us />
+        <whats-app />
     </div>
 </template>

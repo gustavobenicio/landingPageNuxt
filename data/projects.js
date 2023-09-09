@@ -1,0 +1,1 @@
+[{image: "../assets/img/hero.png"}]

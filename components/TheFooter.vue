@@ -3,7 +3,7 @@
     <div class="container mx-auto px-8">
       <div class="w-full flex flex-col md:flex-row py-6">
         <div class="flex-1 mb-6">
-          <logo />
+          <logo :isSticky="true"/>
         </div>
 
         <div class="flex-1">

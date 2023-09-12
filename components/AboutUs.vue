@@ -10,7 +10,7 @@
         <div class="line "></div>
       </div>
       <!-- data-aos="fade-up-right" -->
-      <p data-aos="fade-up-right" class="text-content">
+      <p data-aos="fade-up-right" class="text-content p-1">
         {{ content }}
         <br />
       </p>

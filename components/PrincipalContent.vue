@@ -8,10 +8,10 @@
       
       <!--Left Col-->
       <div
-      class="flex flex-col w-full md:w-1/2 lg:w-2/5 justify-center items-start text-center md:text-left"
+      class="flex flex-col w-full md:w-1/2 lg:w-1/2 justify-center items-start text-center md:text-left"
       >
         <!-- <p class="tracking-tighter w-full">Pronto para transformar seu projeto em realidade?</p> -->
-        <h1 class="my-6 text-5xl font-bold leading-tight font-secondary">
+        <h1 class="my-6 text-5xl/tight lg:text-6xl/tight xl:text-7xl/tight font-bold font-secondary">
           Excelência em Construção Civil
         </h1>
         <div class="text-xl font-light mb-8">
@@ -26,7 +26,7 @@
         </button>
       </div>
       <!--Right Col-->
-      <div class=" md:w-1/2 lg:w-3/5 py-6 text-center">
+      <div class=" md:w-1/2 lg:w-1/2 py-6 text-center">
         <img class="w-40 md:w-3/5 z-50 float-right" src="~/assets/img/constructor.png" alt />
       </div>
     </div>

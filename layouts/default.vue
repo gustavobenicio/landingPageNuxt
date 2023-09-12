@@ -35,10 +35,10 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i,900&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Raleway:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap');
 
-.landing-4 .font-secondary {
+.font-secondary {
     font-family: "Raleway", -apple-system, BlinkMacSystemFont, "Segoe UI", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
   }
-.landing-4 .landing-btn {
+.landing-btn {
   text-transform: uppercase;
   letter-spacing: .06991em;
   font-weight: 600;
@@ -55,13 +55,49 @@ html {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   box-sizing: border-box;
+
 }
 
 .gradient {
   /* background: linear-gradient(90deg, #6200ee 0%, #03dac5 100%);  */
-  /* background: linear-gradient(90deg, #d53369 0%, #daae51 100%); */
-  background: linear-gradient(90deg, #393536 0%, #393536 100%);   
+  /* background: linear-gradient(90deg, #f59e0b 0%, #fbbf24 100%); */
+  background: linear-gradient(90deg, #525252 0%, #404040 100%);   
   /*/# //#393536*/
+}
+
+.section {
+  @apply bg-gray-50 border-b py-8
+}
+
+.line-color {
+  @apply text-orange-800;
+}
+
+.title {
+  @apply w-full text-gray-300 text-center font-bold  mb-2 drop-shadow-sm uppercase;
+}
+
+.subtitle {
+  @apply w-full my-6 text-4xl/5 font-medium leading-tight text-center text-gray-600 font-secondary drop-shadow ;
+}
+
+.line {
+  @apply  text-gray-300 h-1 mx-auto gradient w-16 opacity-25 my-12 py-0 rounded-t ;
+}
+
+.text-content {
+  @apply text-gray-800 mb-8 text-justify font-light text-lg drop-shadow-sm;
+}
+
+.bubble {
+  @apply mx-auto bg-zinc-100 border-2 border-zinc-400 shadow-zinc-200 shadow-lg p-4 rounded-full grid content-center h-56 w-56 sm:h-56 sm:w-56;
+}
+
+.lnr {
+  color: #a1a1aa !important;
+    font-size: 3rem;
+    font-weight: 300;
+    line-height: 1.1;
 }
 
 </style>

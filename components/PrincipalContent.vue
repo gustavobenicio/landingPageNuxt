@@ -10,24 +10,24 @@
       <div
       class="flex flex-col w-full md:w-1/2 lg:w-2/5 justify-center items-start text-center md:text-left"
       >
-        <p class="tracking-tighter w-full">Pronto para transformar seu projeto em realidade?</p>
-        <h1 class="my-8 text-5xl font-bold leading-tight">
+        <!-- <p class="tracking-tighter w-full">Pronto para transformar seu projeto em realidade?</p> -->
+        <h1 class="my-6 text-5xl font-bold leading-tight font-secondary">
           Excelência em Construção Civil
         </h1>
-        <div class="text-2xl mb-8">
-          Transformamos Ideias em Estruturas Duradouras 
+        <div class="text-xl font-light mb-8">
+          Transformamos Ideias em Estruturas Duradouras com a Sua Visão, Nossa Expertise!
         </div>
-        <div class="w-full text-lg mb-8">Sua Visão, Nossa Expertise!</div>
+        <!-- <div class="w-full text-lg font-extralight mb-8">Sua Visão, Nossa Expertise!</div> -->
 
         <button
-          class="mx-auto lg:mx-0 hover:underline bg-white text-gray-800 font-bold rounded-full my-6 py-3 px-6 shadow-lg"
+          class="mx-auto md:mx-0 hover:bg-orange-50 bg-white text-gray-900 rounded-full my-6 py-3 px-6 landing-btn"
         >
         Contacte-nos
         </button>
       </div>
       <!--Right Col-->
-      <div class="w-full md:w-1/2 lg:w-3/5 py-6 text-center">
-        <img class="w-14 md:w-3/5 z-50 float-right" src="~/assets/img/constructor.png" alt />
+      <div class=" md:w-1/2 lg:w-3/5 py-6 text-center">
+        <img class="w-40 md:w-3/5 z-50 float-right" src="~/assets/img/constructor.png" alt />
       </div>
     </div>
   </div>

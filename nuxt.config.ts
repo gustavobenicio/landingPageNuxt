@@ -10,5 +10,10 @@ export default defineNuxtConfig({
     },
   },
   plugins: [{ src: "@/plugins/aos", ssr: false, mode: "client" }],
+  app: {
+    head: {
+      link: [{ rel: 'stylesheet', href: 'https://cdn.linearicons.com/free/1.0.0/icon-font.min.css' }]
+      }
+  }
 
 })

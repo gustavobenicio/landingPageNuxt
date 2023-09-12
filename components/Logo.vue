@@ -5,7 +5,7 @@
 
   <a
     :class="classList"
-    class=" pl-2 no-underline hover:no-underline font-bold text-center border-dashed"
+    class=" pl-2 no-underline hover:no-underline font-bold text-center"
     href="#"
   >
     <!--Icon from: http://www.potlabicons.com/ -->

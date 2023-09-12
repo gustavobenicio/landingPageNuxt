@@ -1,60 +1,43 @@
 <template>
-  <section class="bg-white border-b py-8">
-    <div class="container mx-auto flex flex-wrap pt-4 pb-12">
-      <h1 data-aos="fade-up"
-        class="w-full my-2 text-5xl font-bold leading-tight text-center text-gray-800"
-      >
-        Projectos
+  <section class="section">
+    <div class="container max-w-5xl mx-auto m-8 pb-12">
+      <div class="title">PROJECTOS</div>
+      
+      <h1 data-aos="fade-up" class="subtitle">
+      <!-- Projetos Realizados:  -->
+      Qualidade que Fala por Si Mesma!
       </h1>
+      
       <div data-aos="fade-up" class="w-full mb-4">
-        <div
-          class="h-1 mx-auto gradient w-64 opacity-25 my-0 py-0 rounded-t"
-        ></div>
+        <div class="line"></div>
+     </div>
+
+      <div data-aos="fade-up" class="mx-auto grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-2 text-gray-800">
+          <div data-aos="fade-up" v-for="(item, index) in data">
+            
+            <div class="p-1 mx-0 w-full bg-slate-50 border border-slate-100" >
+              <img :src="item.image.src" :alt="item.image.alt" class="w-full h-full object-cover"/>
+            </div>
+            
+            <div class="p-1 mx-0 w-full min-h-max bg-slate-50 border border-slate-100" >
+              <h1 class="pb-2 text-2xl font-medium leading-tight text-center text-gray-600 font-secondary"> 
+                {{ item.title }}
+              </h1>
+              <h3 class="pb-2 text-xl leading-tight text-center text-gray-600 font-secondary font-normal">
+                {{ item.subtitle }}
+              </h3>
+              
+              <ul class="indent-1 px-6 list-disc capitalize">
+                <li v-for="task in item.tasks"> {{ task }} </li>
+              </ul>
+            </div>
+          </div>
       </div>
-
-      <div data-aos="fade-up" class="mx-auto grid grid-cols-1 gap-4 sm:grid-cols-4 lg:grid-cols-6 text-gray-800">
-        <!-- <div class="p-1 bg-slate-50 border border-slate-100" > -->
-          <!-- <img v-for="product in products" :src="product" alt="image" width="250" height="100" > -->
-          <div class="p-1 mx-0 w-full bg-slate-50 border border-slate-100" >
-            <img src="~assets/img/projectos/luxuoso/brevidade-eng-remodelacao-gourmet-13.jpeg" alt="image" class="w-full h-full object-cover"/>
-          </div>
-          <div class="p-1 bg-slate-50 border border-slate-100" >
-            <img src="~assets/img/projectos/luxuoso/colocacao-piso-05a.jpg" alt="image" class="w-full h-full object-cover" />
-          </div>
-          <div class="p-1 bg-slate-50 border border-slate-100" >
-            <img src="~assets/img/projectos/luxuoso/condominio-mansoes-4.jpg" alt="image" class="w-full h-full object-cover"/>
-          </div>
-          <div class="p-1 mx-0 bg-slate-50 border border-slate-100" >
-            <img src="~assets/img/projectos/luxuoso/pavimentacao-drenagem-03.jpeg" alt="image" class="w-full h-full object-cover"/>
-          </div>
-          <div class="p-1 bg-slate-50 border border-slate-100" >
-            <img src="~assets/img/projectos/luxuoso/remodelacao-escritorio-04a.jpg" alt="image" class="w-full h-full object-cover"/>
-          </div>
-          <div class="p-1 w-full bg-slate-50 border border-slate-100" >
-            <img src="~assets/img/projectos/luxuoso/remodelacao-loja-estetica-18.jpeg" alt="image" class="w-full h-full object-cover"/>
-          </div>
-          <div class="p-1 bg-slate-50 border border-slate-100" >
-            <img src="~assets/img/projectos/luxuoso/remodelacao-vivenda-t4-20.jpg" alt="image" class="w-full h-full object-cover"/>
-          </div>
-          <div class="p-1 bg-slate-50 border border-slate-100" >
-            <img src="~assets/img/projectos/luxuoso/telhado-cobertura-03.jpg" alt="image" class="w-full h-full object-cover"/>
-          </div>
-        <!-- </div> -->
-
-        
-
-      </div>
-
-
     </div>
   </section>
 </template>
 
 <script setup>
-
-// const { data: products } = await useFetch('https://fakestoreapi.com/products')
-
+import data from '~/content/realized-services.json'
 const products = ref(["@/assets/img/hero.png"]);
-
-
 </script>

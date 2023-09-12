@@ -1,0 +1,169 @@
+[
+    {
+        "image": {
+            "src": "img/projectos/luxuoso/brevidade-eng-remodelacao-gourmet-13.jpeg",
+            "alt": "Remodelação de Área Gourmet"
+        },
+        "title":"Remodelação de Área Gourmet",
+        "subtitle":"Serviços realizados",
+        "tasks": [
+            "Piso flutuante de madeira",
+            "Telhado de madeira talhada",
+            "Cobrimento de vidro",
+            "Bancada de granito preto",
+            "Churrasqueira",
+            "Piscina",
+            "pintura",
+            "Elétrica",
+            "Hidráulica e esgoto"
+        ]
+    },
+
+    {
+        "image": {
+            "src": "img/projectos/luxuoso/remodelacao-t2-luxuoso-23.jpeg",
+            "alt": "Remodelação Apartamento T2 luxuoso"
+        },
+        "title":"Remodelação Apartamento T2 luxuoso",
+        "subtitle":"Serviços realizados",
+        "tasks": [
+            "Elétrica",
+            "Tubagem",
+            "Granito mármores",
+            "Pias de pedra",
+            "Móveis",
+            "Acessórios",
+            "Porcelanatos",
+            "Pladur 3D",
+            "Design de interiores",
+            "Arquitetura",
+            "Pintura",
+            "Escamas projetadas",
+            "Vidrarias",
+            "Esquadrias",
+            "Caixilharia",
+            "Marcenaria",
+            "Carpintaria"
+        ]
+    },
+
+    {
+        "image": {
+            "src": "img/projectos/luxuoso/colocacao-piso-05a.jpg",
+            "alt": "Colocação de piso"
+        },
+        "title":"Colocação de piso",
+        "subtitle":"Serviços realizados",
+        "tasks": [
+            "Piso porcelanato em 3 quartos e uma sala.",
+            "Porcelanato amadeirando",
+            "Betumado e pronto"
+        ]
+    },
+
+    {
+        "image": {
+            "src": "img/projectos/luxuoso/condominio-mansoes-4.jpg",
+            "alt": "Instalação de pavimentos no Condomínio Mansões"
+        },
+        "title":"Instalação de pavimentos no Condomínio Mansões",
+        "subtitle":"Serviços realizados",
+        "tasks": [
+            "6 KM de ruas feitas no bloquete ou intertravado",
+            "12 KM de calçadas",
+            "96 KM de meio fio",
+            "Terraplanem",
+            "Retroescavadeira",
+            "Placas vibratórias",
+            "Makitão",
+            "Pô de pedra"
+        ]
+    },
+    {
+        "image": {
+            "src": "img/projectos/luxuoso/pavimentacao-drenagem-03.jpeg",
+            "alt": "Instalação de Pavimentacao de Drenagem"
+        },
+        "title":"Instalação de Pavimentacao de Drenagem",
+        "subtitle":"Serviços realizados",
+        "tasks": [
+            "Obra de pavimentação e drenagem de águas pluviais, rua de condomínio fechado e calçadas com intertravado de 10×8, com manilhamento e meio fio nas calçadas."
+        ]
+    },
+    {
+        "image": {
+            "src": "img/projectos/luxuoso/remodelacao-escritorio-04a.jpg",
+            "alt": "Remodelação de Escritório"
+        },
+        "title":"Remodelação de Escritório",
+        "subtitle":"Serviços realizados",
+        "tasks": [
+            "Pintura",
+            "Elétrica",
+            "Pladur",
+            "Porcelanato",
+            "Parede 3D",
+            "Vidros",
+            "Tubagem"
+        ]
+    },
+    {
+        "image": {
+            "src": "img/projectos/luxuoso/remodelacao-loja-estetica-18.jpeg",
+            "alt": "Remodelação de Loja de Estética"
+        },
+        "title":"Remodelação de Loja de Estética",
+        "subtitle":"Serviços realizados",
+        "tasks": [
+            "Elétrica",
+            "Tubagem",
+            "Pintura",
+            "Porcelanato",
+            "Ar-condicionado",
+            "Teto falso",
+            "Paredes divisoras (pladur)",
+            "Caixilharia",
+            "Móveis",
+            "Capoto",
+            "Impermeabilização",
+            "Resfriamento",
+            "Energia fotovoltaica",
+            "Canalização"
+        ]
+    },
+    {
+        "image": {
+            "src": "img/projectos/luxuoso/remodelacao-vivenda-t4-20.jpg",
+            "alt": "Remodelação de Vivenda t4"
+        },
+        "title":"Remodelação de Vivenda t4",
+        "subtitle":"Vivenda t4 totalmente remodelada com construção de piscina raiz.",
+        "tasks": [
+            "Elétrica",
+            "Tubagem",
+            "Piscina completa",
+            "Telhado de barro",
+            "Calha",
+            "Energia fotovoltaica",
+            "Pisos",
+            "Betão",
+            "Pedras de granito natural"
+        ]
+    },
+    {
+        "image": {
+            "src": "img/projectos/luxuoso/telhado-cobertura-03.jpg",
+            "alt": "Instalação de Telhado e Cobertura"
+        },
+        "title":"Instalação de Telhado e Cobertura",
+        "subtitle":"Serviços realizados",
+        "tasks": [
+            "Serralherias",
+            "Caixilharia",
+            "Elétrica",
+            "Betão",
+            "Isolamento"
+        ]
+    }
+    
+]

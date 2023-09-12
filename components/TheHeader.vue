@@ -8,7 +8,7 @@
       </div>
       <div class="block lg:hidden pr-4">
         <button
-          class="flex items-center p-1 text-orange-800 hover:text-gray-900"
+          class="flex items-center p-1 line-color hover:text-gray-900"
           @click.prevent.stop="onToggleClick"
         >
           <svg
@@ -30,7 +30,7 @@
           <li class="mr-3">
             <a
               :class="classList"
-              class="inline-block py-2 px-4 text-black hover:text-orange-200  font-bold no-underline"
+              class="inline-block py-2 px-4 text-black hover:text-orange-200  font-bold no-underline text-sm"
               href="#"
               >Quem Somos</a
             >
@@ -38,7 +38,7 @@
           <li class="mr-3 ">
             <a 
               :class="classList"
-              class="inline-block text-black no-underline hover:text-orange-200 hover:text-underline py-2 px-4"
+              class="inline-block text-black no-underline hover:text-orange-200 hover:text-underline py-2 px-4 text-sm"
               href="#"
               >Projectos</a
             >
@@ -46,7 +46,7 @@
           <li class="mr-3">
             <a 
               :class="classList"
-              class="inline-block text-black no-underline hover:text-orange-200 hover:text-underline py-2 px-4"
+              class="inline-block text-black no-underline hover:text-orange-200 hover:text-underline py-2 px-4 text-sm"
               href="#"
               >Serviços</a
             >
@@ -54,7 +54,7 @@
           <li class="mr-3">
             <a
               :class="classList"
-              class="inline-block text-black no-underline hover:text-orange-200 hover:text-underline py-2 px-4"
+              class="inline-block text-black no-underline hover:text-orange-200 hover:text-underline py-2 px-4 text-sm"
               href="#"
               >Orçamento/Contacto</a
             >

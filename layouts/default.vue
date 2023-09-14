@@ -55,7 +55,7 @@ html {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   box-sizing: border-box;
-
+  scroll-behavior: smooth;
 }
 
 .gradient {
@@ -66,7 +66,7 @@ html {
 }
 
 .section {
-  @apply bg-gray-50 border-b py-8
+  @apply bg-gray-50 dark:bg-gray-900  border-b dark:border-gray-700 py-8
 }
 
 .line-color {
@@ -74,24 +74,31 @@ html {
 }
 
 .title {
-  @apply w-full text-gray-300 text-center font-bold  mb-2 drop-shadow-sm uppercase;
+  @apply w-full text-gray-300 dark:text-gray-300 text-center font-bold  mb-2 drop-shadow-sm uppercase;
 }
 
 .subtitle {
-  @apply w-full my-6 text-4xl/5 font-medium leading-tight text-center text-gray-600 font-secondary drop-shadow ;
+  @apply w-full my-6 text-4xl/5 font-medium leading-tight text-center text-gray-600 dark:text-white font-secondary drop-shadow ;
 }
 
 .line {
-  @apply  text-gray-300 h-1 mx-auto gradient w-16 opacity-25 my-12 py-0 rounded-t ;
+  @apply  text-gray-300 dark:text-white h-1 mx-auto gradient w-16 opacity-25 my-12 py-0 rounded-t ;
 }
 
 .text-content {
-  @apply text-gray-800 mb-8 text-justify font-light text-lg drop-shadow-sm;
+  @apply text-gray-800 dark:text-white mb-8 text-justify font-light text-lg drop-shadow-sm;
 }
 
 .bubble {
-  @apply mx-auto bg-zinc-100 border-2 border-zinc-400 shadow-zinc-200 shadow-lg p-4 rounded-full grid content-center h-56 w-56 sm:h-56 sm:w-56;
+  @apply mx-auto bg-white dark:bg-gray-800 border-2
+         dark:border-gray-900 border-zinc-400 
+         shadow-zinc-200 dark:shadow-gray-900 
+         shadow-lg p-4 rounded-full grid content-center h-56 w-56 sm:h-56 sm:w-56;
 }
+
+.bubble-content {
+  @apply text-2xl text-gray-800 dark:text-gray-100 font-normal leading-none m-3;
+}  
 
 .lnr {
   color: #a1a1aa !important;

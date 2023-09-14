@@ -19,11 +19,21 @@
         </div>
         <!-- <div class="w-full text-lg font-extralight mb-8">Sua Visão, Nossa Expertise!</div> -->
 
-        <button
-          class="mx-auto md:mx-0 hover:bg-orange-50 bg-white text-gray-900 rounded-full my-6 py-3 px-6 landing-btn"
-        >
-        Contacte-nos
-        </button>
+        <div class="flex flex-row w-full  ">
+          <button
+            class="mx-auto ml-0 hover:bg-amber-500 bg-amber-600 text-zinc-50 rounded-sm my-6 py-3 px-6 landing-btn w-48 mr-2"   
+          >
+          <a href="#OurProjects">Nossos Serviços</a>
+
+          </button>
+          <button
+            class="mx-auto md:mx-0 hover:bg-zinc-300 bg-zinc-50 text-gray-900 rounded-sm my-6 py-3 px-6 landing-btn w-48"
+          href="#ContactUs"
+            >
+            <a href="#ContactUs">Contacte-nos</a>
+          
+          </button>
+        </div>
       </div>
       <!--Right Col-->
       <div class=" md:w-1/2 lg:w-1/2 py-6 text-center">

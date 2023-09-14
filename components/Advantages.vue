@@ -23,7 +23,7 @@
           <div>
             <!-- <IconCSS name="ic:outline-settings" size="2rem"/> -->
             <span class="lnr lnr-cog"></span>
-            <h3 class="text-2xl text-gray-800 font-normal leading-none m-3"> Expertise Comprovada </h3>
+            <h3 class="bubble-content"> Expertise Comprovada </h3>
           </div>
         </div>
         
@@ -31,7 +31,7 @@
           <div>
             <!-- <IconCSS name="tdesign:money" size="2rem"/> -->
             <span class="lnr lnr-chart-bars"></span>
-            <h3 class="text-2xl text-gray-800 font-normal leading-none m-3">Orçamento Controlado</h3>
+            <h3 class="bubble-content">Orçamento Controlado</h3>
           </div>
         </div>
       
@@ -39,7 +39,7 @@
           <div>
             <!-- <IconCSS name="ic:baseline-access-time" size="2rem"/>     -->
             <span class="lnr lnr-calendar-full"></span>
-            <h3 class="text-2xl text-gray-800 font-normal leading-none m-3">Prazos Respeitados </h3>
+            <h3 class="bubble-content">Prazos Respeitados </h3>
           </div>
         </div>
 
@@ -47,7 +47,7 @@
           <div>
             <!-- <IconCSS name="ic:twotone-question-answer" size="2rem"/>         -->
             <span class="lnr lnr-bubble"></span>
-            <h3 class="text-2xl text-gray-800 font-normal leading-none m-3">Processo Transparente</h3>
+            <h3 class="bubble-content">Processo Transparente</h3>
           </div>
         </div>
 
@@ -55,7 +55,7 @@
           <div>
             <!-- <IconCSS name="bi:bricks" size="2rem"/>     -->
             <span class="lnr lnr-home"></span>
-            <h3 class="text-2xl text-gray-800 font-normal leading-none m-3">Resultados Extraordinários</h3>
+            <h3 class="bubble-content">Resultados Extraordinários</h3>
           </div>
         </div>
 

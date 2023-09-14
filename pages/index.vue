@@ -4,7 +4,7 @@
         <AboutUs />
         <advantages />
         <OurProjects />
-        <!-- // TYPE OF SERVICES (O QUE FAZEMOS/TIPOS DE SERVIÇOS)<BR/> -->
+        <!-- // TYPE OF SERVICES (O QUE FAZEMOS/TIPOS DE SERVIÇOS - Serviços prestados)<BR/> -->
         
         <!-- https://app.delighted.com/survey_types -->
         <!-- //ADD CUSTOMERS RATINGS (aVALIAÇÕES DE CONSUMIDORES)<BR/> -->

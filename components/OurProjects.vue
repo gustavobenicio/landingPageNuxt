@@ -1,8 +1,8 @@
 <template>
 
 
-  <section class="section">
-    <div class="container max-w-5xl mx-auto m-8 rounded-lg "> <!-- border dark:border-neutral-600 -->
+  <section id="OurProjects" class="section ">
+    <div class="container max-w-5xl mx-auto m-8 rounded-lg"> <!-- border dark:border-neutral-600 -->
       <div class="title">PROJECTOS</div>
       
       <h1 data-aos="fade-up" class="subtitle">
@@ -16,15 +16,16 @@
     
      <div class="flex w-full flex-col justify-center space-y-4 rounded-t-lg overflow-hidden p-2 items-center"> <!-- md:mx-auto md:gap-4 md:grid md:grid-cols-2 lg:grid-cols-2 -->
         <div 
-          
+        data-aos="fade-up"
           v-for="(item, index) in data" 
           class="flex 
                 flex-col
                 w-full
                 rounded-lg 
               bg-white 
+              dark:bg-gray-800
+              dark:text-white
                 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)]
-               dark:bg-neutral-700 
                 md:w-full 
                 md:flex-row
                 md:h-96

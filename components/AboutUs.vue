@@ -1,5 +1,5 @@
 <template>
-  <section class="section">
+  <section id="AboutUs" class="section">
     <div class="container max-w-5xl mx-auto m-8">
       <div class="title">QUEM SOMOS</div>
            

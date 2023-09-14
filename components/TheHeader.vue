@@ -31,7 +31,7 @@
             <a
               :class="classList"
               class="inline-block py-2 px-4 text-black hover:text-orange-200  font-bold no-underline text-sm"
-              href="#"
+              href="#AboutUs"
               >Quem Somos</a
             >
           </li>
@@ -39,7 +39,7 @@
             <a 
               :class="classList"
               class="inline-block text-black no-underline hover:text-orange-200 hover:text-underline py-2 px-4 text-sm"
-              href="#"
+              href="#OurProjects"
               >Projectos</a
             >
           </li>
@@ -55,7 +55,7 @@
             <a
               :class="classList"
               class="inline-block text-black no-underline hover:text-orange-200 hover:text-underline py-2 px-4 text-sm"
-              href="#"
+              href="#ContactUs"
               >Orçamento/Contacto</a
             >
           </li>

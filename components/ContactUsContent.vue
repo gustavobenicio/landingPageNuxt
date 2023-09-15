@@ -1,5 +1,5 @@
 <template>
-  <div data-aos="zoom-in-up" id="ContactUs" class="relative flex items-top justify-center min-h-screen bg-white dark:bg-gray-900 sm:items-center sm:pt-0">
+  <div data-aos="zoom-in-up" class="relative flex items-top justify-center min-h-screen bg-white dark:bg-gray-900 sm:items-center sm:pt-0">
     <div class="max-w-6xl mx-auto sm:px-6 lg:px-8 w-full">
       <div class="mt-10 mx-2 overflow-hidden rounded-lg">
         <div class="grid grid-cols-1 md:grid-cols-2 ">

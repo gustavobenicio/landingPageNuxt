@@ -30,7 +30,7 @@
           <li class="mr-3">
             <a
               :class="classList"
-              class="inline-block py-2 px-4 text-black hover:text-orange-200  font-bold no-underline text-sm"
+              class="inline-block py-2 px-4 text-black hover:text-sky-200  font-bold no-underline text-sm"
               href="#AboutUs"
               >Quem Somos</a
             >
@@ -38,7 +38,7 @@
           <li class="mr-3 ">
             <a 
               :class="classList"
-              class="inline-block text-black no-underline hover:text-orange-200 hover:text-underline py-2 px-4 text-sm"
+              class="inline-block text-black no-underline hover:text-sky-200 hover:text-underline py-2 px-4 text-sm"
               href="#OurProjects"
               >Projectos</a
             >
@@ -46,7 +46,7 @@
           <li class="mr-3">
             <a 
               :class="classList"
-              class="inline-block text-black no-underline hover:text-orange-200 hover:text-underline py-2 px-4 text-sm"
+              class="inline-block text-black no-underline hover:text-sky-200 hover:text-underline py-2 px-4 text-sm"
               href="#"
               >Serviços</a
             >
@@ -54,7 +54,7 @@
           <li class="mr-3">
             <a
               :class="classList"
-              class="inline-block text-black no-underline hover:text-orange-200 hover:text-underline py-2 px-4 text-sm"
+              class="inline-block text-black no-underline hover:text-sky-200 hover:text-underline py-2 px-4 text-sm"
               href="#ContactUs"
               >Orçamento/Contacto</a
             >

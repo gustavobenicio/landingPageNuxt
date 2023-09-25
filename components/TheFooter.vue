@@ -57,21 +57,21 @@
             <li class="mt-2 inline-block mr-2 md:block md:mr-0">
               <a
                 href="#"
-                class="no-underline hover:underline text-gray-800 hover:text-orange-500"
+                class="no-underline hover:underline text-gray-800 hover:text-sky-500"
                 >Facebook</a
               >
             </li>
             <li class="mt-2 inline-block mr-2 md:block md:mr-0">
               <a
                 href="#"
-                class="no-underline hover:underline text-gray-800 hover:text-orange-500"
+                class="no-underline hover:underline text-gray-800 hover:text-sky-500"
                 >Linkedin</a
               >
             </li>
             <li class="mt-2 inline-block mr-2 md:block md:mr-0">
               <a
                 href="#"
-                class="no-underline hover:underline text-gray-800 hover:text-orange-500"
+                class="no-underline hover:underline text-gray-800 hover:text-sky-500"
                 >X (Twitter)</a
               >
             </li>
@@ -83,21 +83,21 @@
             <!-- <li class="mt-2 inline-block mr-2 md:block md:mr-0">
               <a
                 href="#"
-                class="no-underline hover:underline text-gray-800 hover:text-orange-500"
+                class="no-underline hover:underline text-gray-800 hover:text-sky-500"
                 >Official Blog</a
               >
             </li> -->
             <li class="mt-2 inline-block mr-2 md:block md:mr-0">
               <a
                 href="#AboutUs"
-                class="no-underline hover:underline text-gray-800 hover:text-orange-500"
+                class="no-underline hover:underline text-gray-800 hover:text-sky-500"
                 >Sobre nós</a
               >
             </li>
             <li class="mt-2 inline-block mr-2 md:block md:mr-0">
               <a
                 href="#ContactUs"
-                class="no-underline hover:underline text-gray-800 hover:text-orange-500"
+                class="no-underline hover:underline text-gray-800 hover:text-sky-500"
                 >Contactos</a
               >
             </li>

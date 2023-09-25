@@ -70,7 +70,7 @@ html {
 }
 
 .line-color {
-  @apply text-orange-800;
+  @apply text-sky-800;
 }
 
 .title {

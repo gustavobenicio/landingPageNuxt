@@ -21,7 +21,7 @@
 
         <div class="flex flex-row w-full  ">
           <button
-            class="mx-auto ml-0 hover:bg-amber-500 bg-amber-600 text-zinc-50 rounded-sm my-6 py-3 px-6 landing-btn w-48 mr-2"   
+            class="mx-auto ml-0 hover:bg-sky-500 bg-sky-600 text-zinc-50 rounded-sm my-6 py-3 px-6 landing-btn w-48 mr-2"   
           >
           <a href="#OurProjects">Nossos Serviços</a>
 

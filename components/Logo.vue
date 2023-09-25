@@ -1,7 +1,7 @@
 <template>
 
-<img class="w-16" v-if="!props.isSticky" src="~/assets/img/brevidade-reverse.png" alt="" srcset="">
-<img class="w-16" v-if="props.isSticky" src="~/assets/img/brevidade.png" alt="" srcset="">
+<img class="w-16" v-if="!props.isSticky" src="~/assets/img/bravuseng-reverse.png" alt="" srcset="">
+<img class="w-16" v-if="props.isSticky" src="~/assets/img/bravuseng.png" alt="" srcset="">
 
   <a
     :class="classList"
@@ -9,7 +9,7 @@
     href="#"
   >
     <!--Icon from: http://www.potlabicons.com/ -->
-    <p class="text-xl lg:text-l drop-shadow leading-5">BREVIDADE</p>
+    <p class="text-xl lg:text-l drop-shadow leading-5">BRAVUSENG</p>
       <p class="text-xs lg:text-xs drop-shadow tracking-widest">ENGENHARIA</p>
   </a>
 </template>
@@ -34,7 +34,7 @@ const props = defineProps({
       classList = props.isSticky ? 'text-gray-800' : 'text-white'
 
     } else {
-      classList = 'text-orange-600'
+      classList = 'text-sky-600'
     }
     return classList
   } );

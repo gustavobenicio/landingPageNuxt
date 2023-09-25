@@ -21,7 +21,7 @@
         <slot/>
         <TheFooter/>
     </div>
-    <img class=" min-h-screen w-screen object-cover object-left" src="~/assets/img/construction-workers-sunset.png" alt="kitty" />
+    <img class=" min-h-screen w-screen object-cover object-left" src="/img/projectos/bg/20.jpg" alt="kitty" />
     
   </div>
 
